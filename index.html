@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Habitat sample invoice</title>
+    <style>
+    .invoice-box{
+        max-width:800px;
+        margin:auto;
+        padding:30px;
+        border:1px solid #eee;
+        box-shadow:0 0 10px rgba(0, 0, 0, .15);
+        font-size:16px;
+        line-height:24px;
+        font-family:'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        color:#555;
+    }
+
+    .invoice-box table{
+        width:100%;
+        line-height:inherit;
+        /*text-align:left;*/
+    }
+
+    .invoice-box table td{
+        padding:5px;
+        vertical-align:top;
+    }
+
+    .invoice-box table tr td:nth-child(2){
+
+    }
+
+    .invoice-box table tr.top table td{
+        padding-bottom:20px;
+    }
+
+    .invoice-box table tr.top table td.title{
+        font-size:45px;
+        line-height:45px;
+        color:#333;
+    }
+
+    .invoice-box table tr.information table td{
+        padding-bottom:40px;
+    }
+
+    .invoice-box table tr.heading td{
+        background:#eee;
+        border-bottom:1px solid #ddd;
+        font-weight:bold;
+    }
+
+    .invoice-box table tr.details td{
+        padding-bottom:20px;
+    }
+
+    .invoice-box table tr.item td{
+        border-bottom:1px solid #eee;
+    }
+
+    .invoice-box table tr.item.last td{
+        border-bottom:none;
+    }
+
+    .invoice-box table tr.total td:nth-child(2){
+        border-top:2px solid #eee;
+        font-weight:bold;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .invoice-box table tr.top table td{
+            width:100%;
+            display:block;
+            text-align:center;
+        }
+
+        .invoice-box table tr.information table td{
+            width:100%;
+            display:block;
+            text-align:right;
+            float: right;
+        }
+    }
+
+    .habitat_address {
+      text-align: right;
+      margin-top: 10px;
+    }
+    .vendor_info {
+      text-align: right;
+    }
+    .partner_name {
+      /*float: left;*/
+      /*margin-bottom: 5px;*/
+    }
+    .order_date {
+      /*width: 40px;*/flex:
+    }
+    td {
+      font-size: 14px;
+    }
+    </style>
+</head>
+<body>
+    <div class="invoice-box">
+        <table cellpadding="5" cellspacing="0">
+          <tbody>
+              <tr>
+                  <td colspan="10">
+                      <table>
+                          <tr>
+                            <td class="title">
+                              <img src="https://lh5.googleusercontent.com/xsjKSWS3JwPP-mLUwb96ragrxZaIxsJLsqCweshAQTIcpCFg25pfzQ-x7NQYtiPKAx7uCmCAv127cp4=w1227-h957-rw" style="width:100%; max-width:300px;">
+                            </td>
+                            <td class="habitat_address">
+                                Habitat - Food Fast<br>
+                                1601 Market St.<br>
+                                Philadelphia, PA 19105
+                            </td>
+                          </tr>
+                          <td>
+                            Invoice #: Xi9dmd9<br>
+                            Created: August 21, 2017<br>
+                            Due: August 28, 2017
+                          </td>
+                          <td class="vendor_info">
+                              <strong>Sangkee Noodle House (Hugh Kong)</strong><br>
+                              3400 Chestnut St, Phila, PA<br>
+                              sangkeenoodle@gmail.com
+                          </td>
+                      </table>
+                  </td>
+              </tr>
+              <tr class="partner_name"><td colspan="10"><img src="https://assets.grubhub.com/favicon.ico" alt=""> &nbsp;Grubhub (grubhub.com)</td><th>
+              <tr class="heading">
+                  <td class="order_date">Date</td>
+                  <td class="order_number">Order</td>
+                  <td class="order_number">Type</td>
+                  <td class="order_address">Address</td>
+                  <td class="order_amount">Total</td>
+                  <td class="order_rate">Rate</td>
+                  <td class="order_total">Owe</td>
+                  <td class="order_tip">Tip</td>
+                  <td class="order_tip">Fee</td>
+                  <td class="order_tip">Owed</td>
+              </tr>
+              <tr class="details">
+                  <td>8/21 4:20pm</td>
+                  <td>#63424</td>
+                  <td>Cash</td>
+                  <td></td>
+                  <td>$50.00</td>
+                  <td>$0.00 + 5% </td>
+                  <td>$47.50 </td>
+                  <td> </td>
+                  <td> </td>
+                  <td> </td>
+
+              </tr>
+              <tr class="details">
+                  <td>8/26 11:15am</td>
+                  <td>#18581</td>
+                  <td>Credit</td>
+                  <td>1601 Market St.</td>
+                  <td>$100</td>
+                  <td>$0.00 + 5%</td>
+                  <td>$95.00</td>
+                  <td>$4.00</td>
+                  <td>$4.00</td>
+                  <td>$8.00</td>
+
+              </tr>
+              <tr class="details">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td style="text-align: right; color: #5cb85c;"><strong>Owed:</strong></td>
+                  <td style="color: #5cb85c;"> <strong>$142.50 </td>
+                  <td></td>
+                  <td style="text-align: right; color: #d9534f;"><strong>Owe:</strong></td>
+                  <td style="color: #5cb85c; color: #d9534f;"> <strong>$8.00 </td>
+              </tr>
+            <tr class="partner_name"><td colspan="10"><img src="http://ontrayv2.sandbox02.jarv.us/img/fav/favicon-16x16.png" alt=""> &nbsp;Ontray (ontrayapp.com)</td><th>
+            <tr class="heading">
+                <td class="order_date">Date</td>
+                <td class="order_number">Order</td>
+                <td class="order_number">Type</td>
+                <td class="order_address">Address</td>
+                <td class="order_amount">Total</td>
+                <td class="order_rate">Rate</td>
+                <td class="order_total">Owe</td>
+                <td class="order_tip">Tip</td>
+                <td class="order_tip">Fee</td>
+                <td class="order_tip">Owed</td>
+            </tr>
+            <tr class="details">
+                <td>8/21 4:20pm</td>
+                <td>#63424</td>
+                <td>Cash</td>
+                <td></td>
+                <td>$50.00</td>
+                <td>$0.00 + 5% </td>
+                <td>$47.50 </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+
+            </tr>
+            <tr class="details">
+                <td>8/26 11:15am</td>
+                <td>#18581</td>
+                <td>Credit</td>
+                <td>1601 Market St.</td>
+                <td>$100</td>
+                <td>$0.00 + 5%</td>
+                <td>$95.00</td>
+                <td>$4.00</td>
+                <td>$4.00</td>
+                <td>$8.00</td>
+
+            </tr>
+            <tr class="details">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="text-align: right; color: #5cb85c;"><strong>Owed:</strong></td>
+                <td style="color: #5cb85c;"> <strong>$142.50 </td>
+                <td></td>
+                <td style="text-align: right; color: #d9534f;"><strong>Owe:</strong></td>
+                <td style="color: #5cb85c; color: #d9534f;"> <strong>$8.00 </td>
+            </tr>
+            <tr class="partner_name"><td colspan="10"><img src="http://www.zuppler.com/img/favicon/Favicon16.png" alt=""> &nbsp;Zuppler (zuppler.com)</td><th>
+            <tr class="heading">
+                <td class="order_date">Date</td>
+                <td class="order_number">Order</td>
+                <td class="order_number">Type</td>
+                <td class="order_address">Address</td>
+                <td class="order_amount">Total</td>
+                <td class="order_rate">Rate</td>
+                <td class="order_total">Owe</td>
+                <td class="order_tip">Tip</td>
+                <td class="order_tip">Fee</td>
+                <td class="order_tip">Owed</td>
+            </tr>
+            <tr class="details">
+                <td>8/21 4:20pm</td>
+                <td>#63424</td>
+                <td>Prepaid</td>
+                <td></td>
+                <td>$10.00</td>
+                <td>$0.00 + 10% </td>
+                <td>$9.00</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+            <tr class="details">
+                <td>8/21 4:20pm</td>
+                <td>#63424</td>
+                <td>Cash</td>
+                <td></td>
+                <td>$10.00</td>
+                <td>$0.00 + 10% </td>
+                <td>$9.00</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+            <tr class="details">
+                <td>8/24 11:15am</td>
+                <td>#18581</td>
+                <td>Credit</td>
+                <td>2300 Washington Ave.</td>
+                <td>$85.00</td>
+                <td>$0.00 + 10%</td>
+                <td>$76.50</td>
+                <td>$4.00</td>
+                <td>$4.00</td>
+                <td>$8.00</td>
+            </tr>
+            <tr class="details">
+                <td>8/26 1:43pm</td>
+                <td>#18581</td>
+                <td>Cash</td>
+                <td>3988 Market St.</td>
+                <td>$26.00</td>
+                <td>$0.00 + 10%</td>
+                <td>$23.40</td>
+                <td>$4.00</td>
+                <td>$4.00</td>
+                <td>$8.00</td>
+            </tr>
+            <tr class="details">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style="text-align: right; color: #5cb85c;"><strong>Owed:</strong></td>
+                <td style="color: #5cb85c;"> <strong>$108.90 </td>
+                <td></td>
+                <td style="text-align: right; color: #d9534f;"><strong>Owe:</strong></td>
+                <td style="color: #5cb85c; color: #d9534f;"> <strong>$8.00 </td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+</body>
+</html>
